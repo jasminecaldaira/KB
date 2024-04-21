@@ -1,0 +1,51 @@
+*{
+    text-align: center;
+    color: whitesmoke;
+    background-color: black;
+}
+.container{
+    width: 100%;
+    margin: 0;
+}
+.todo, .inprogress, .approval, .testing, .done{
+    width: 19%;
+    display: inline-block;
+    vertical-align: top;
+    border: solid whitesmoke;
+    height: 590px;
+}
+    .todo{
+        background-color: #1D9CDF;
+    }
+    .inprogress{
+        background-color: #D93567;
+    }
+    .approval{
+        background-color: #F5A623;
+    }
+    .testing{
+        background-color: #0C2947;
+    }
+    .done{
+        background-color: #3FAE48;
+    }
+    .draggable{
+        width: 80%;
+        border: 1px solid black;
+        height: 100px;
+
+    }
+h2{
+    height: 80px;
+    padding-top: 30px;
+}
+img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin-left: 150px;
+}
+div.anya{
+    margin-top: 50px;
+    
+}
